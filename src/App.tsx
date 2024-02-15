@@ -1,12 +1,14 @@
 import './assets/css/tailwind.css'
-import HomePage from './pages/main/Home/Home'
-import NavbarPage from './pages/main/Navbar/Navbar'
+import ExamCategoryPage from './pages/main/ExamCategory'
+import HomePage from './pages/main/Home'
+import NavbarPage from './pages/main/Navbar'
 
 function App() {
   return (
     <>
       <NavbarPage />
       <HomePage/>
+      <ExamCategoryPage/>
     </>
   )
 }
