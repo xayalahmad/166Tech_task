@@ -5,6 +5,8 @@ export default function Entry() {
     return (
         <Box className='bg-black rounded-xl w-4/5 block md:flex  items-center  m-auto h-100 pt-10 px-10 md:pt-16 md:px-14' >
                 <Box className=' block md:flex items-end justify-between w-full'>
+
+
                     <Box className='text-white md:w-full py-0 px-0 mb-10  ' >
                         <Box className=' text-2xl md:text-4xl font-bold mb-2 md:mb-5'>
                             3-cü sinif imtahanı
@@ -16,6 +18,7 @@ export default function Entry() {
                             1 Azn - imtahanı al
                         </Box>
                     </Box>
+                    <Box className='!relative !bottom-0  object-cover md:w-2/5  md:max-w-auto md:max-h- mr-0' src={examPageBgImg} component='img' />
                 </Box>
         </Box>
     )
