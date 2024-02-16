@@ -3,7 +3,8 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import Dropdown from '../../shared/Navbar/Dropdown';
+import Dropdown from '../Dropdown';
+import { Link } from 'react-router-dom';
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
 
 export default function Sidebar() {
@@ -37,10 +38,21 @@ export default function Sidebar() {
     >
       <div className='flex-col items-center justify-between mt-8 px-2'>
         <div className="flex flex-col items-center gap-3">
-          <div className="mx-2 text-base block text-center w-full">Haqqımızda</div>
-          <div className="mx-2 text-base block text-center w-full">Kitablar</div>
-          <div className="mx-2 text-base block text-center w-full">İmtahanlar</div>
-          <div className="mx-2 text-base block text-center w-full">Bizimlə əlaqə</div>
+          <Link to={'/exam'}>
+            <div className="mx-2 text-base block text-center w-full">Haqqımızda</div>
+
+          </Link>
+
+          <Link to={'/exam'}>
+            <div className="mx-2 text-base block text-center w-full">Kitablar</div>
+          </Link>
+          <Link to={'/exam'}>
+            <div className="mx-2 text-base block text-center w-full">İmtahanlar</div>
+          </Link>
+          <Link to={'/exam'}>
+            <div className="mx-2 text-base block text-center w-full">Bizimlə əlaqə</div>
+          </Link>
+
           <div className='w-full text-center border-b-2 border-t-2 mt-2 mb-4'>
             <Dropdown />
           </div>

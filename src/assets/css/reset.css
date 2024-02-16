@@ -32,6 +32,9 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';

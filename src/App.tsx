@@ -1,18 +1,17 @@
+import "./assets/css/reset.css";
 import './assets/css/tailwind.css'
-import ExamCategoryPage from './pages/main/ExamCategory'
-import FooterPage from './pages/main/Footer'
-import HomePage from './pages/main/Home'
-import MostUsedPage from './pages/main/MostUsed'
-import NavbarPage from './pages/main/Navbar'
-
+import { BrowserRouter } from "react-router-dom";
+import Router from "./pages/router";
+import FooterPage from "./pages/main/Footer";
+import NavbarPage from "./pages/main/NavbarPage";
 function App() {
   return (
     <>
-      <NavbarPage />
-      <HomePage/>
-      <ExamCategoryPage/>
-      <MostUsedPage/>
-      <FooterPage/>
+      <BrowserRouter>
+        <NavbarPage />
+        <Router />
+        <FooterPage />
+      </BrowserRouter>
     </>
   )
 }

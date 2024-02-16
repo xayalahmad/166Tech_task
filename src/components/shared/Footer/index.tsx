@@ -6,28 +6,39 @@ import instagram from '../../../../public/instagram.svg'
 import facebook from '../../../../public/facebook.svg'
 import telegram from '../../../../public/telegram.svg'
 import whatsapp from '../../../../public/whatsapp.svg'
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <Box sx={{ backgroundColor: '#fafafa' }} >
             <Box className='w-4/5 m-auto'>
                 <Box className='flex justify-center'>
                     <Box className='block md:flex justify-between items-center pt-10 w-full'>
+                    <Link to={'/'}>
                         <Box className=' text-4xl font-bold mr-8 mb-7'>
                             Logo
                         </Box>
+                    </Link>
                         <Box className='flex justify-between gap-7 overflow-scroll'>
+                        <Link to={'/exam'} className='flex items-center'>
                             <Box className='flex items-center text-lg font-medium'>
                                 Haqqımızda
                             </Box>
+                        </Link>
+                        <Link to={'/exam'} className='flex items-center'>
                             <Box className='flex items-center text-lg font-medium'>
                                 Kitablar
                             </Box>
+                        </Link>
+                        <Link to={'/exam'} className='flex items-center'>
                             <Box className='flex items-center text-lg font-medium'>
                                 İmtahanlar
                             </Box>
+                        </Link>
+                        <Link to={'/exam'} className='flex items-center'>
                             <Box className='flex items-center text-lg font-medium whitespace-nowrap'>
                                 Bizimlə əlaqə
                             </Box>
+                        </Link>
                             <Dropdown />
                         </Box>
                     </Box>

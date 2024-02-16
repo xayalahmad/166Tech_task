@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
-import time from '../../../../../../public/time.svg'
-import starBlack from '../../../../../../public/starBlack.svg'
-import starGrey from '../../../../../../public/starGrey.svg'
+import time from '../../../../../../../public/time.svg'
+import starBlack from '../../../../../../../public/starBlack.svg'
+import starGrey from '../../../../../../../public/starGrey.svg'
 export default function Card() {
     return (
         <>
