@@ -5,7 +5,7 @@ export default function Home(){
         <div className='relative'>
         <Box component="img"  className='w-full min-h-64 object-cover' src={homeBgImage}>
         </Box>
-        <div  className=' absolute  w-4/5 md:w-1/2 top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%]'>
+        <div  className=' absolute  w-4/5 md:w-1/2 top-1/2 left-1/4  transform translate-x-[-18%] md:translate-x-[-30%] translate-y-[-50%]'>
             <div className='text-3xl md:text-5xl font-bold mb-2 md:mb-5 text-white'>
                 İmtahanlar
             </div>
