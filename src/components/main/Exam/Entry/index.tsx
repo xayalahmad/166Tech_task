@@ -1,15 +1,10 @@
-import Grid from '@mui/material/Grid';
 import examPageBgImg from '../../../../../public/examPageBg.png'
 import Box from '@mui/material/Box';
 
 export default function Entry() {
     return (
         <Box className='bg-black rounded-xl w-4/5 block md:flex  items-center  m-auto h-100 pt-10 px-10 md:pt-16 md:px-14' >
-            {/* <Grid container spacing={0}> */}
-                {/* <Grid item xs={12} sm={12} md={7}> */}
                 <Box className=' block md:flex items-end justify-between w-full'>
-
-
                     <Box className='text-white md:w-full py-0 px-0 mb-10  ' >
                         <Box className=' text-2xl md:text-4xl font-bold mb-2 md:mb-5'>
                             3-cü sinif imtahanı
@@ -21,12 +16,7 @@ export default function Entry() {
                             1 Azn - imtahanı al
                         </Box>
                     </Box>
-                {/* </Grid> */}
-                {/* <Grid item xs={12} sm={12} md={5} className='flex justify-end'> */}
-                    <Box className='!relative !bottom-0  object-cover md:w-2/5  md:max-w-auto md:max-h- mr-0' src={examPageBgImg} component='img' />
-                {/* </Grid> */}
                 </Box>
-            {/* </Grid> */}
         </Box>
     )
 }
