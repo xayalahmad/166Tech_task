@@ -1,4 +1,4 @@
-import ExamCategory from "../../../components/main/ExamCategory/ExamCategory";
+import ExamCategory from "../../../components/main/ExamCategory";
 
 export default function ExamCategoryPage(){
     return(

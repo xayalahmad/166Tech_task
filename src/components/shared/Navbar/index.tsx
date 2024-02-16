@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
-import Dropdown from "../Dropdown/Dropwdown"
-import Sidebar from '../Sidebar/Sidebar';
+import Dropdown from "../Dropdown"
+import Sidebar from '../Sidebar';
 export default function Navbar() {
     return (
         <div className="flex justify-center py-3 bg-white">
