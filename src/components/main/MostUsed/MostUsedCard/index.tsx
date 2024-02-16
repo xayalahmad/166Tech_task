@@ -25,7 +25,7 @@ export default function MostUsedCard() {
                     <Card />
                 </Grid>
             </Grid>
-            <Box className='flex justify-center mt-14'>
+            <Box className='flex justify-center my-14'>
 
             <Box className=' text-base font-medium rounded-2xl inline-block mx-auto' style={{padding: '10px 20px', border: '1px solid #D9D9D9'}}>
                 Daha çox

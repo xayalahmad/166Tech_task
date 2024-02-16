@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import Dropdown from '../Dropdown';
+import Dropdown from '../../shared/Navbar/Dropdown';
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
 
 export default function Sidebar() {
