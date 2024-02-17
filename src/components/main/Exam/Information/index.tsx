@@ -10,7 +10,7 @@ import silverMedal from '../../../../../public/silverMedal.svg'
 import Box from '@mui/material/Box';
 export default function Information() {
     return (
-        <Box className=' mt-40 mb-24'>
+        <Box className=' mt-20 md:mt-40 mb-12 md:mb-24'>
             <Box className='w-4/5 mx-auto'>
 
                 <Grid container spacing={2}>
